@@ -28,7 +28,8 @@ const saveStudent = async(e) => {
 
 
   return (
-    <div className="col-sm-8 py-2 px-5">
+    <div className="col-sm-8 py-2 px-5 offset-2 shadow">
+      <h2 classname="mt-5">Add Student</h2>
       <form onSubmit={saveStudent}>
         <div className="input-group mb-5">
             <lable
